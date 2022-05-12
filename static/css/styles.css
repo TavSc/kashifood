@@ -25,6 +25,18 @@
     margin-top:370px
 }
 
+.contentAccount{
+    margin-top: 150px;
+    position: absolute;
+}
+
+.loginBox{
+    background-color: antiquewhite;
+    margin: 0px,600px;
+    align-content: center;
+    position: absolute;
+}
+
 body{
     margin: 0;
 }
