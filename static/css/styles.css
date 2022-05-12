@@ -1,0 +1,30 @@
+.menu{
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.address{
+    background-color: darkgrey;
+    position: fixed;
+    margin-top: 150px;
+}
+
+.logo{
+    color:darkslategrey
+}
+
+.content{
+    margin-top: 200px;
+    position: absolute;
+}
+
+.foot{
+    position: absolute;
+    margin-top:370px
+}
+
+body{
+    margin: 0;
+}
