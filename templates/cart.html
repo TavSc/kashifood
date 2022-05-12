@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Carrito | Kashifood</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body>
     <div class="menu">
         <ul>
             <h1 class="logo">Kashifood</h1>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="restaurantsL.html">Restaurantes</a></li>
-            <li><a href="login.html">Mi Cuenta</a></li>
-            <li><a href="cart.html">Carrito</a></li>
-            <li><a href="index.html">Salir</a></li>
+            <table class="menuItems">
+                <thead>
+                    <td><a class="menuItem" href="index.html">Home</a></td>
+                    <td><a class="menuItem" href="restaurantsL.html">Restaurantes</a></td>
+                    <td><a class="menuItem" href="login.html">Mi Cuenta</a></td>
+                    <td><a class="menuItem" href="cart.html">Carrito</a></td>
+                    <td><a class="menuItem" href="index.html">Salir</a></tr>
+                </thead>
+            </table>
+            
+            
         </ul>
     </div>
     <div class="address">
@@ -22,6 +29,13 @@
     </div>
     <div class="content">
         <h1>Carrito</h1>
+        <table>
+            <thead>
+                <tr>Cantidad</tr>
+                <tr>Producto</tr>
+                <tr>Precio</tr>
+            </thead>
+        </table>
         <a href="">Eliminar</a>
         <a href="">Vaciar Carrito</a>
         <a href="restaurantsL.html">Seguir Ordenando</a>

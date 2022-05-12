@@ -3,16 +3,35 @@
     width: 100%;
     position: fixed;
     
+    
 }
 
 .address{
     background-color: darkgrey;
     position: fixed;
-    margin-top: 150px;
+    margin-top: 110px;
+    width: 100%;
 }
 
 .logo{
-    color:darkslategrey
+    color:darkslategrey;
+    display: inline-block;
+}
+
+.menuItem{
+    color: brown;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.menuItems{
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+}
+
+.menuItem:hover{
+    background-color: blueviolet;
 }
 
 .content{
@@ -40,3 +59,4 @@
 body{
     margin: 0;
 }
+
