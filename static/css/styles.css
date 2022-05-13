@@ -45,7 +45,7 @@
 
 .foot{
     position: absolute;
-    margin-top:470px;
+    margin-top:620px;
     background-color: #30343F;
     color: white;
     width: 100%;
@@ -58,10 +58,21 @@
 }
 
 .loginBox{
-    background-color: antiquewhite;
+    padding: 164px;
+    background-color: #81A094;
+    color: white;
     margin: 0px,600px;
-    align-content: center;
-    position: absolute;
+    text-align: center;
+    
+}
+
+.createAccount{
+    padding: 14px;
+    background-color: #81A094;
+    color: white;
+    margin: 0px,600px;
+    text-align: center;
+    
 }
 
 .E404{
@@ -94,4 +105,5 @@ body{
 
 button{
     font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
 }

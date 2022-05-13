@@ -6,23 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Cuenta | Kashifood</title>
     <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <div class="menu">
-        <h1>Mi Cuenta</h1>
         <ul>
-            <li><a href="indexL.html">Regresar a Menú Principal</a></li>
-            <li><a href="accountEdit.html">Editar Datos</a></li>
-            <li><a href="">Historial de Pedidos</a></li>
+            <h1 class="logo">Mi Cuenta</h1>
+            <table class="menuItems">
+                <thead>
+                    <td><a class="menuItem" href="indexL.html">Regresar a Menú Principal</a></td>
+                    <td><a class="menuItem" href="accountEdit.html">Editar Datos</a></td>
+                </thead>
+            </table>
+            
+            
         </ul>
     </div>
     <div class="contentAccount">
         <h2>Información de Contacto</h2>
         <p><b>Nombre (s):</b></p>
-        <p><b>Apellido Paterno:</b></p>
-        <p><b>Apellido Materno:</b></p>
-        <p><b>Email:</b></p>
-        <p><b>Teléfono:</b></p>
+        <table>
+            <td><p><b>Apellido Paterno:</b></p></td>
+            <td><p><b>Apellido Materno:</b></p> </td>
+        </table>
+        <table>
+            <td><p><b>Email:</b></p></td>
+            <td><p><b>Teléfono:</b></p> </td>
+        </table>
+        
+        
 
         <h2>Dirección de Envío</h2>
         <p><b>Calle:</b></p>
