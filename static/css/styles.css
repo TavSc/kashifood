@@ -1,5 +1,5 @@
 .menu{
-    background-color: cadetblue;
+    background-color: #1E2749;
     width: 100%;
     position: fixed;
     
@@ -7,41 +7,49 @@
 }
 
 .address{
-    background-color: darkgrey;
+    background-color: #81A094;
     position: fixed;
     margin-top: 110px;
     width: 100%;
+    padding-left: 15px;
 }
 
 .logo{
-    color:darkslategrey;
+    color:white;
     display: inline-block;
 }
 
 .menuItem{
-    color: brown;
+    color: white;
     padding: 5px;
-    background-color: aliceblue;
+    background-color: #273469;
 }
 
 .menuItems{
     display: inline-block;
     position: relative;
-    left: 1000px;
+    left: 920px;
+    
 }
 
 .menuItem:hover{
-    background-color: blueviolet;
+    background-color: #E4D9FF;
+    color: black;
 }
 
 .content{
-    margin-top: 200px;
+    margin-top: 160px;
     position: absolute;
+    padding: 30px;
 }
 
 .foot{
     position: absolute;
-    margin-top:370px
+    margin-top:470px;
+    background-color: #30343F;
+    color: white;
+    width: 100%;
+    padding: 30px;
 }
 
 .contentAccount{
@@ -56,7 +64,34 @@
     position: absolute;
 }
 
+.E404{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+P{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+a{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
     margin: 0;
 }
 
+button{
+    font-family: 'Josefin Sans', sans-serif;
+}
